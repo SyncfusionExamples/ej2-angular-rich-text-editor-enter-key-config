@@ -1,13 +1,18 @@
 import { Component, ViewChild} from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { ToolbarService, LinkService, ImageService, HtmlEditorService, RichTextEditorComponent } from '@syncfusion/ej2-angular-richtexteditor';
+import { RichTextEditorModule } from '@syncfusion/ej2-angular-richtexteditor';
 import {DropDownListComponent, FieldSettingsModel} from '@syncfusion/ej2-angular-dropdowns';
+import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
 import { FloatLabelType } from '@syncfusion/ej2-inputs';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls:['app.component.css'],
-  providers: [ToolbarService, LinkService, ImageService, HtmlEditorService]
+  providers: [ToolbarService, LinkService, ImageService, HtmlEditorService],
+  standalone: true,
+  imports: [CommonModule, RichTextEditorModule, DropDownListModule]
 })
 export class AppComponent {
 
