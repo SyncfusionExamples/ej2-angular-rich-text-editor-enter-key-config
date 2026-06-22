@@ -29,3 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Blog reference
 [Customize the Enter and Shift+Enter Keys in Angular Rich Text Editor for Better Productivity](https://www.syncfusion.com/blogs/post/customize-the-enter-and-shiftenter-keys-in-angular-rich-text-editor-for-better-productivity.aspx)
+
+> Looking for the full Angular Rich Text Editor component overview, features, pricing, and documentation? Visit the <a href="https://www.syncfusion.com/angular-components/angular-rich-text-editor" target="_blank" rel="noopener">Angular Rich Text Editor</a> page.
